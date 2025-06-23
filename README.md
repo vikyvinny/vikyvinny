@@ -37,5 +37,29 @@ Here are some ideas to get you started:
 
 </details>
 
+# mermaid  graph 
 
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+# prove 
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("hello world")
+puts markdow.to_html
+
+```
+#nuovo paragrafo 
+
+```ruby
+This site was built using [GitHub Pages](https://pages.github.com/).
+
+```
 
